@@ -7,7 +7,7 @@ import pandas as pd
 
 
 def load_model():
-    with open(r"C:\Users\my\Desktop\Semester 8\Project\Web app\prediction_model", 'rb') as file:
+    with open("prediction_model", 'rb') as file:
         ld_model = pickle.load(file)
     return ld_model
 
